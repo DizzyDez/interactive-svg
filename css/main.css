@@ -46,11 +46,8 @@ html {
   transform-origin: center;
 }
 
-.face:hover .ear {
-  transform: translate(0, -200px);
-  transition: all .5s linear alternate;
-}
-keyframes left-right {
+
+@keyframes left-right {
 
   from {
     transform: translateX(-5px);
@@ -60,6 +57,23 @@ keyframes left-right {
     transform: translateX(15px);
   }
 }
+
 .cls-1 {
-  fill:#673200;
-  }.cls-2{fill:#ffaaca;}.cls-3{fill:#c65b00;}.cls-4{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}
+  fill: #673200;
+}
+
+.cls-2 {
+  fill: #ffaaca;
+}
+
+.cls-3 {
+  fill: #c65b00;
+}
+
+.cls-4 {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
